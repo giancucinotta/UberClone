@@ -22,7 +22,7 @@ const Map = () => {
             {origin?.location && (
                 <Marker
                     coordinate={{
-                        latitude: origin.location.lat.lat,
+                        latitude: origin.location.lat,
                         longitude: origin.location.lng
                     }}
                     title='Origin'
